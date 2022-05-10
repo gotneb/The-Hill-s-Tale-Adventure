@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor_detail.png-6073be720516f3a401c66cfe4f731c7f.stex"
+path="res://.import/house.png-98197f888ac80f833f714530457e6f2e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/tilesets/floor_detail.png"
-dest_files=[ "res://.import/floor_detail.png-6073be720516f3a401c66cfe4f731c7f.stex" ]
+source_file="res://assets/backgrounds/tilesets/houses/house.png"
+dest_files=[ "res://.import/house.png-98197f888ac80f833f714530457e6f2e.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

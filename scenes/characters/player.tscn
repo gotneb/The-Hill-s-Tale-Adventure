@@ -89,17 +89,17 @@ animations = [ {
 "frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
 "loop": true,
 "name": "left",
-"speed": 6.0
+"speed": 8.0
 }, {
 "frames": [ SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ) ],
 "loop": true,
 "name": "right",
-"speed": 6.0
+"speed": 8.0
 }, {
 "frames": [ SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ) ],
 "loop": true,
 "name": "top",
-"speed": 6.0
+"speed": 8.0
 }, {
 "frames": [ SubResource( 13 ) ],
 "loop": false,
@@ -124,7 +124,7 @@ animations = [ {
 "frames": [ SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
 "loop": true,
 "name": "down",
-"speed": 6.0
+"speed": 8.0
 } ]
 
 [sub_resource type="CircleShape2D" id=22]
@@ -144,3 +144,6 @@ playing = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 1.41421 )
 shape = SubResource( 22 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_right = 20000000

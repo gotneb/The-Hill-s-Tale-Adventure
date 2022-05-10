@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor_detail.png-6073be720516f3a401c66cfe4f731c7f.stex"
+path="res://.import/simple_house_2.png-9124221e36f832fee73823c82c148564.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/tilesets/floor_detail.png"
-dest_files=[ "res://.import/floor_detail.png-6073be720516f3a401c66cfe4f731c7f.stex" ]
+source_file="res://assets/backgrounds/tilesets/houses/simple_house_2.png"
+dest_files=[ "res://.import/simple_house_2.png-9124221e36f832fee73823c82c148564.stex" ]
 
 [params]
 
