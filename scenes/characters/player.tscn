@@ -146,4 +146,5 @@ position = Vector2( 0, 1.41421 )
 shape = SubResource( 22 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
+current = true
 limit_right = 20000000
