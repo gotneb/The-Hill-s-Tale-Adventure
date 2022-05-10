@@ -1,7 +1,7 @@
 extends KinematicBody2D
 class_name Player
 
-var _speed := 30
+var _speed := 40
 var _velocity := Vector2.ZERO
 var _direction := Vector2.ZERO
 

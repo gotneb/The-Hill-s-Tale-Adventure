@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/floor_detail.png-6073be720516f3a401c66cfe4f731c7f.stex"
+path="res://.import/japanese_house2.png-5dbbe297288b10256059a9fb39cfe848.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/tilesets/floor_detail.png"
-dest_files=[ "res://.import/floor_detail.png-6073be720516f3a401c66cfe4f731c7f.stex" ]
+source_file="res://assets/backgrounds/tilesets/houses/japanese_house2.png"
+dest_files=[ "res://.import/japanese_house2.png-5dbbe297288b10256059a9fb39cfe848.stex" ]
 
 [params]
 
