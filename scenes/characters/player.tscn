@@ -54,35 +54,35 @@ region = Rect2( 16, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=13]
 atlas = ExtResource( 2 )
-region = Rect2( 48, 0, 16, 16 )
+region = Rect2( 16, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=14]
 atlas = ExtResource( 2 )
-region = Rect2( 16, 0, 16, 16 )
+region = Rect2( 0, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=15]
 atlas = ExtResource( 2 )
-region = Rect2( 0, 0, 16, 16 )
+region = Rect2( 32, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=16]
-atlas = ExtResource( 2 )
-region = Rect2( 32, 0, 16, 16 )
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=17]
 atlas = ExtResource( 1 )
-region = Rect2( 0, 0, 16, 16 )
+region = Rect2( 0, 16, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=18]
 atlas = ExtResource( 1 )
-region = Rect2( 0, 16, 16, 16 )
+region = Rect2( 0, 32, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=19]
 atlas = ExtResource( 1 )
-region = Rect2( 0, 32, 16, 16 )
+region = Rect2( 0, 48, 16, 16 )
 
 [sub_resource type="AtlasTexture" id=20]
-atlas = ExtResource( 1 )
-region = Rect2( 0, 48, 16, 16 )
+atlas = ExtResource( 2 )
+region = Rect2( 48, 0, 16, 16 )
 
 [sub_resource type="SpriteFrames" id=21]
 animations = [ {
@@ -103,28 +103,28 @@ animations = [ {
 }, {
 "frames": [ SubResource( 13 ) ],
 "loop": false,
-"name": "idle_right",
+"name": "idle_top",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 14 ) ],
 "loop": false,
-"name": "idle_top",
+"name": "idle_down",
 "speed": 1.0
 }, {
 "frames": [ SubResource( 15 ) ],
 "loop": false,
-"name": "idle_down",
-"speed": 1.0
-}, {
-"frames": [ SubResource( 16 ) ],
-"loop": false,
 "name": "idle_left",
 "speed": 1.0
 }, {
-"frames": [ SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"frames": [ SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ) ],
 "loop": true,
 "name": "down",
 "speed": 8.0
+}, {
+"frames": [ SubResource( 20 ) ],
+"loop": false,
+"name": "idle_right",
+"speed": 1.0
 } ]
 
 [sub_resource type="CircleShape2D" id=22]
@@ -142,7 +142,7 @@ animation = "idle_down"
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, 1.41421 )
+position = Vector2( 0, 1.414 )
 shape = SubResource( 22 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
