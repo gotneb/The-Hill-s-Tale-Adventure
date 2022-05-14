@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/relief_detail.png-50d40a6b1d08bdb96cab5f3398928cf8.stex"
+path="res://.import/statues.png-257d1dcc9b494301776f17bb2e972d02.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/tilesets/relief_detail.png"
-dest_files=[ "res://.import/relief_detail.png-50d40a6b1d08bdb96cab5f3398928cf8.stex" ]
+source_file="res://assets/backgrounds/statues/statues.png"
+dest_files=[ "res://.import/statues.png-257d1dcc9b494301776f17bb2e972d02.stex" ]
 
 [params]
 
